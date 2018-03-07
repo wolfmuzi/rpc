@@ -31,7 +31,7 @@ import org.springframework.context.ApplicationContextAware;
  * 由于本类实现了ApplicationContextAware InitializingBean
  * spring构造本对象时会调用setApplicationContext()方法，从而可以在方法中通过自定义注解获得用户的业务接口和实现
  * 还会调用afterPropertiesSet()方法，在方法中启动netty服务器
- * @author blackcoder
+ * @author
  *
  */
 public class RpcServer implements ApplicationContextAware, InitializingBean {
