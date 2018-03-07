@@ -20,7 +20,7 @@ import cn.jason.rpc.common.RpcResponse;
  * 处理具体的业务调用
  * 通过构造时传入的“业务接口及实现”handlerMap，来调用客户端所请求的业务方法
  * 并将业务方法返回值封装成response对象写入下一个handler（即编码handler——RpcEncoder）
- * @author blackcoder
+ * @author
  *
  */
 public class RpcHandler extends SimpleChannelInboundHandler<RpcRequest> {
